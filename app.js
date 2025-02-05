@@ -77,7 +77,7 @@
 //       toq.push(arr[i]);
 //     }
 //   }
-//   return juft, toq;
+//   return juft, toq ;
 // }
 // let result = array([4, 5, 7, 8, 6, 9]);
 // console.log("Juft indekslilar:", result.juft);
@@ -94,11 +94,19 @@
 // Massiv elementlari orasidan R soniga eng uzoq son topilsin.
 // 📥 Input: arr = [10, 15, 2, 30, 18], R = 12
 //  📤 Output: 30 (12 ga eng uzoq son 30 (farqi 18))
-function array(arr, R) {
-  return;
-}
-array([10, 15, 2, 30, 18]);
-console.log();
+// function array(arr) {
+//   let R = 12;
+//   let farqi = 0;
+//   let n = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] - R > farqi) {
+//       farqi = arr[i] - R;
+//       n = arr[i];
+//     }
+//   }
+// }
+// array([10, 15, 2, 30, 18]);
+// console.log("katta son:", n, "farq:", farqi);
 
 // Array8.
 // n ta elementdan tashkil topgan massiv berilgan.
