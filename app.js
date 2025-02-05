@@ -88,13 +88,17 @@
 // Massivda eng ko‘p uchragan element va uning soni topilsin.
 // 📥 Input: [2, 3, 2, 5, 3, 3, 7, 2, 3]
 //  📤 Output: Eng ko‘p uchragan element: 3, Uchrash soni: 4
-function
+
 // Array7.
 // n ta elementdan tashkil topgan massiv va R butun soni berilgan.
 // Massiv elementlari orasidan R soniga eng uzoq son topilsin.
 // 📥 Input: arr = [10, 15, 2, 30, 18], R = 12
 //  📤 Output: 30 (12 ga eng uzoq son 30 (farqi 18))
-function array(arr, R) {}
+function array(arr, R) {
+  return;
+}
+array([10, 15, 2, 30, 18]);
+console.log();
 
 // Array8.
 // n ta elementdan tashkil topgan massiv berilgan.
@@ -105,8 +109,8 @@ function array(arr, R) {}
 //  📤 Output:
 //  Birinchi yarmi katta: [7, 9, 8]
 //  Ikkinchi yarmi kichik: [3, 1, 2, 4]
-// const n = 7;
 // function array(arr) {
+//   const n = 7;
 //   let katta = [];
 //   let kichik = [];
 //   for (let i = 0; i < arr.length; i++) {
@@ -117,7 +121,7 @@ function array(arr, R) {}
 //     }
 //   }
 // }
-// let result = array[(7, 3, 9, 1, 8, 2, 4)];
+// let result = array([7, 3, 9, 1, 8, 2, 4]);
 // console.log(result.katta);
 // console.log(result.kichik);
 
