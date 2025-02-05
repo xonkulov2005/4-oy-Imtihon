@@ -67,37 +67,84 @@
 //  📤 Output:
 //  Juft indekslilar: [4, 7, 6]
 //  Toq indekslilar: [5, 8, 9]
-
 // function array(arr) {
-//   let toq = [];
 //   let juft = [];
+//   let toq = [];
 //   for (let i = 0; i < arr.length; i++) {
-//     if (arr.length % 2 == 0) {
+//     if (i % 2 == 0) {
 //       juft.push(arr[i]);
-//     } else if (arr.length % 2 == 1) {
+//     } else {
 //       toq.push(arr[i]);
 //     }
 //   }
-//   return;
+//   return juft, toq;
 // }
-// array([4, 5, 7, 8, 6, 9]);
-// console.log(arr);
+// let result = array([4, 5, 7, 8, 6, 9]);
+// console.log("Juft indekslilar:", result.juft);
+// console.log("Toq indekslilar:", result.toq);
 
 // Array6.
 // n ta elementdan tashkil topgan massiv berilgan.
 // Massivda eng ko‘p uchragan element va uning soni topilsin.
 // 📥 Input: [2, 3, 2, 5, 3, 3, 7, 2, 3]
 //  📤 Output: Eng ko‘p uchragan element: 3, Uchrash soni: 4
+function
+// Array7.
+// n ta elementdan tashkil topgan massiv va R butun soni berilgan.
+// Massiv elementlari orasidan R soniga eng uzoq son topilsin.
+// 📥 Input: arr = [10, 15, 2, 30, 18], R = 12
+//  📤 Output: 30 (12 ga eng uzoq son 30 (farqi 18))
+function array(arr, R) {}
+
+// Array8.
+// n ta elementdan tashkil topgan massiv berilgan.
+// Massivni ikkiga ajrating:
+// Birinchi yarmi o‘zidan katta bo‘lgan elementlarni
+// Ikkinchi yarmi o‘zidan kichik bo‘lgan elementlarni chiqarib bering.
+// 📥 Input: [7, 3, 9, 1, 8, 2, 4]
+//  📤 Output:
+//  Birinchi yarmi katta: [7, 9, 8]
+//  Ikkinchi yarmi kichik: [3, 1, 2, 4]
+// const n = 7;
+// function array(arr) {
+//   let katta = [];
+//   let kichik = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > n) {
+//       katta.push(arr[i]);
+//     } else {
+//       kichik.push(arr[i]);
+//     }
+//   }
+// }
+// let result = array[(7, 3, 9, 1, 8, 2, 4)];
+// console.log(result.katta);
+// console.log(result.kichik);
+
+// Array9.
+// n ta elementdan tashkil topgan massiv berilgan.
+// Massivning barcha elementlarini ikkita nusxada chiqaruvchi programma tuzing.
+// 📥 Input: [1, 2, 3, 4]
+//  📤 Output: [1, 1, 2, 2, 3, 3, 4, 4]
+// function array(arr) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     result.push(arr[i], arr[i]);
+//   }
+//   return result;
+// }
+// console.log(array([1, 2, 3, 4]));
 
 // Array10.
 // n ta elementdan tashkil topgan massiv berilgan.
 // Massivning oxiridan boshlab har bir ikkinchi elementni chiqaruvchi programma tuzing.
 // 📥 Input: [4, 5, 7, 8, 6, 9, 10, 15]
 //  📤 Output: [15, 9, 8, 5]
-
-function array(arr) {
-  let result = [];
-  for (let i = 0; i < arr.length; i++) {
-
-  }
-}
+// function array(arr) {
+//   let result = [];
+//   for (let i = arr.length - 1; i >= 0; i -= 2) {
+//     result.push(arr[i]);
+//   }
+//   return result;
+// }
+// console.log(array([4, 5, 7, 8, 6, 9, 10, 15]));
